@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F50B4B9D1F23EB7F00EECBC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B4B9C1F23EB7F00EECBC2 /* AppDelegate.swift */; };
+		F50B4B9F1F23EB7F00EECBC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B4B9E1F23EB7F00EECBC2 /* ViewController.swift */; };
+		F50B4BA21F23EB7F00EECBC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50B4BA01F23EB7F00EECBC2 /* Main.storyboard */; };
+		F50B4BA41F23EB7F00EECBC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50B4BA31F23EB7F00EECBC2 /* Assets.xcassets */; };
+		F50B4BA71F23EB7F00EECBC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50B4BA51F23EB7F00EECBC2 /* LaunchScreen.storyboard */; };
+		F54D6D561F23EE52006A5E84 /* WDFlashCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D6D551F23EE52006A5E84 /* WDFlashCardView.swift */; };
+		FC595B2F24A86A5B00A0EF33 /* FlashcardEditWindow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC595B2E24A86A5B00A0EF33 /* FlashcardEditWindow.storyboard */; };
+		FC595B3124A86D7500A0EF33 /* AddFlashcardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC595B3024A86D7500A0EF33 /* AddFlashcardViewController.swift */; };
+		FCA80C772494CAF20065E88C /* AddWordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA80C762494CAF20065E88C /* AddWordsVC.swift */; };
+		FCA80C79249520BB0065E88C /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA80C78249520BB0065E88C /* FlashCard.swift */; };
+		FCFB621B24A0919E00B8A0C2 /* FlashcardEditWindowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB621A24A0919E00B8A0C2 /* FlashcardEditWindowVC.swift */; };
+		FCFB622024A6627D00B8A0C2 /* FlashCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB621E24A6627D00B8A0C2 /* FlashCardCell.swift */; };
+		FCFB622124A6627D00B8A0C2 /* FlashCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFB621F24A6627D00B8A0C2 /* FlashCardCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F50B4B991F23EB7F00EECBC2 /* FlashCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50B4B9C1F23EB7F00EECBC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F50B4B9E1F23EB7F00EECBC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F50B4BA11F23EB7F00EECBC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F50B4BA31F23EB7F00EECBC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F50B4BA61F23EB7F00EECBC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F50B4BA81F23EB7F00EECBC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54D6D551F23EE52006A5E84 /* WDFlashCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WDFlashCardView.swift; sourceTree = "<group>"; };
+		FC595B2E24A86A5B00A0EF33 /* FlashcardEditWindow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FlashcardEditWindow.storyboard; sourceTree = SOURCE_ROOT; };
+		FC595B3024A86D7500A0EF33 /* AddFlashcardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFlashcardViewController.swift; sourceTree = "<group>"; };
+		FCA80C762494CAF20065E88C /* AddWordsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordsVC.swift; sourceTree = "<group>"; };
+		FCA80C78249520BB0065E88C /* FlashCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
+		FCFB621A24A0919E00B8A0C2 /* FlashcardEditWindowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardEditWindowVC.swift; sourceTree = "<group>"; };
+		FCFB621E24A6627D00B8A0C2 /* FlashCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardCell.swift; sourceTree = "<group>"; };
+		FCFB621F24A6627D00B8A0C2 /* FlashCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlashCardCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F50B4B961F23EB7F00EECBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F50B4B901F23EB7F00EECBC2 = {
+			isa = PBXGroup;
+			children = (
+				F50B4B9B1F23EB7F00EECBC2 /* WDFlashCard */,
+				F50B4B9A1F23EB7F00EECBC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F50B4B9A1F23EB7F00EECBC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F50B4B991F23EB7F00EECBC2 /* FlashCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50B4B9B1F23EB7F00EECBC2 /* WDFlashCard */ = {
+			isa = PBXGroup;
+			children = (
+				FCFB621D24A4B98000B8A0C2 /* Controllers */,
+				FCFB621C24A4B96300B8A0C2 /* Models */,
+				FCFB621924A0916000B8A0C2 /* Views */,
+				F50B4B9C1F23EB7F00EECBC2 /* AppDelegate.swift */,
+				F50B4BA31F23EB7F00EECBC2 /* Assets.xcassets */,
+				F50B4BA51F23EB7F00EECBC2 /* LaunchScreen.storyboard */,
+				F50B4BA81F23EB7F00EECBC2 /* Info.plist */,
+				F54D6D541F23EE52006A5E84 /* WDFlashCard */,
+			);
+			path = WDFlashCard;
+			sourceTree = "<group>";
+		};
+		F54D6D541F23EE52006A5E84 /* WDFlashCard */ = {
+			isa = PBXGroup;
+			children = (
+				F54D6D551F23EE52006A5E84 /* WDFlashCardView.swift */,
+			);
+			path = WDFlashCard;
+			sourceTree = "<group>";
+		};
+		FCFB621924A0916000B8A0C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC595B2E24A86A5B00A0EF33 /* FlashcardEditWindow.storyboard */,
+				F50B4BA01F23EB7F00EECBC2 /* Main.storyboard */,
+				FCFB621E24A6627D00B8A0C2 /* FlashCardCell.swift */,
+				FCFB621F24A6627D00B8A0C2 /* FlashCardCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCFB621C24A4B96300B8A0C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCA80C78249520BB0065E88C /* FlashCard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FCFB621D24A4B98000B8A0C2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F50B4B9E1F23EB7F00EECBC2 /* ViewController.swift */,
+				FCA80C762494CAF20065E88C /* AddWordsVC.swift */,
+				FCFB621A24A0919E00B8A0C2 /* FlashcardEditWindowVC.swift */,
+				FC595B3024A86D7500A0EF33 /* AddFlashcardViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F50B4B981F23EB7F00EECBC2 /* WDFlashCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50B4BAB1F23EB7F00EECBC2 /* Build configuration list for PBXNativeTarget "WDFlashCard" */;
+			buildPhases = (
+				F50B4B951F23EB7F00EECBC2 /* Sources */,
+				F50B4B961F23EB7F00EECBC2 /* Frameworks */,
+				F50B4B971F23EB7F00EECBC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDFlashCard;
+			productName = WDFlashCard;
+			productReference = F50B4B991F23EB7F00EECBC2 /* FlashCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F50B4B911F23EB7F00EECBC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Vladimir Dinic";
+				TargetAttributes = {
+					F50B4B981F23EB7F00EECBC2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W3YL9WH5N9;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F50B4B941F23EB7F00EECBC2 /* Build configuration list for PBXProject "WDFlashCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = F50B4B901F23EB7F00EECBC2;
+			productRefGroup = F50B4B9A1F23EB7F00EECBC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F50B4B981F23EB7F00EECBC2 /* WDFlashCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F50B4B971F23EB7F00EECBC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC595B2F24A86A5B00A0EF33 /* FlashcardEditWindow.storyboard in Resources */,
+				F50B4BA71F23EB7F00EECBC2 /* LaunchScreen.storyboard in Resources */,
+				F50B4BA41F23EB7F00EECBC2 /* Assets.xcassets in Resources */,
+				FCFB622124A6627D00B8A0C2 /* FlashCardCell.xib in Resources */,
+				F50B4BA21F23EB7F00EECBC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F50B4B951F23EB7F00EECBC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA80C772494CAF20065E88C /* AddWordsVC.swift in Sources */,
+				F50B4B9F1F23EB7F00EECBC2 /* ViewController.swift in Sources */,
+				FCFB621B24A0919E00B8A0C2 /* FlashcardEditWindowVC.swift in Sources */,
+				F50B4B9D1F23EB7F00EECBC2 /* AppDelegate.swift in Sources */,
+				FCFB622024A6627D00B8A0C2 /* FlashCardCell.swift in Sources */,
+				F54D6D561F23EE52006A5E84 /* WDFlashCardView.swift in Sources */,
+				FC595B3124A86D7500A0EF33 /* AddFlashcardViewController.swift in Sources */,
+				FCA80C79249520BB0065E88C /* FlashCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F50B4BA01F23EB7F00EECBC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50B4BA11F23EB7F00EECBC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F50B4BA51F23EB7F00EECBC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50B4BA61F23EB7F00EECBC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F50B4BA91F23EB7F00EECBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F50B4BAA1F23EB7F00EECBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F50B4BAC1F23EB7F00EECBC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W3YL9WH5N9;
+				INFOPLIST_FILE = WDFlashCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksmithmedia.WDFlashCard;
+				PRODUCT_NAME = FlashCard;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F50B4BAD1F23EB7F00EECBC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W3YL9WH5N9;
+				INFOPLIST_FILE = WDFlashCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksmithmedia.WDFlashCard;
+				PRODUCT_NAME = FlashCard;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F50B4B941F23EB7F00EECBC2 /* Build configuration list for PBXProject "WDFlashCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50B4BA91F23EB7F00EECBC2 /* Debug */,
+				F50B4BAA1F23EB7F00EECBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50B4BAB1F23EB7F00EECBC2 /* Build configuration list for PBXNativeTarget "WDFlashCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50B4BAC1F23EB7F00EECBC2 /* Debug */,
+				F50B4BAD1F23EB7F00EECBC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F50B4B911F23EB7F00EECBC2 /* Project object */;
+}

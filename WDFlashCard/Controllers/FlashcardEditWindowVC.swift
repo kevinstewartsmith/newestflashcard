@@ -17,7 +17,7 @@ class FlashCardTableViewController: UIViewController, UITableViewDelegate {
     override func viewDidLoad() {
         tableView.dataSource = self
         tableView.delegate = self
-        var randoFlashCard = FlashCard(frontText: "fdaf", backText: "dsfad")
+        var randoFlashCard = FlashCard(frontText: "What time is it?", backText: "Flashcard Time")
         flashCardArray.append(randoFlashCard)
         print("FlashCardArray Length: \(flashCardArray.count)")
         
@@ -36,13 +36,15 @@ extension FlashCardTableViewController: UITableViewDataSource {
         cell.setFlashCard(flashCard: flashCardLocal)
         
         
-        return cell     }
+        return cell
+        
+    }
     //Returns a UISwipeConfiguration, which is a container for swipe actions.
     func tableView(_ tableView: UITableView,
                    trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
             let delete = UIContextualAction(style: .destructive, title: "Delete") { (contextualAction, view, actionPerformed: @escaping (Bool) -> Void) in
         
-                let alert = UIAlertController(title: "Delete Flash Card", message: "Are you sure you want to delete this flashcard? (It's your fucking life goddammit)", preferredStyle: .alert)
+                let alert = UIAlertController(title: "Delete Flash Card", message: "Are you sure you want to delete this flashcard? ", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (alertAction) in
                     actionPerformed(false)
                 }))
@@ -62,9 +64,12 @@ extension FlashCardTableViewController: UITableViewDataSource {
         return UISwipeActionsConfiguration(actions: [delete])
     }
     
-//    func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
-//        let edit = UIContextualAction(style: .normal, title: "Edit", handler: )
-//    }
+    func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let edit = UIContextualAction(style: .normal, title: "Edit") { (contextualAction, view,  actionPerformed: (Bool) -> Void) in
+            self.performSegue(withIdentifier: "toFlashCardEdit", sender: nil)
+        }
+        return UISwipeActionsConfiguration(actions: [edit])
+    }
     
 
     

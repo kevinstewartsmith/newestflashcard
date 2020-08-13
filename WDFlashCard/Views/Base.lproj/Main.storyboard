@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WDFlashCard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FlashCard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k5W-Pp-H3A" customClass="WDFlashCard" customModule="WDFlashCard" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k5W-Pp-H3A" customClass="WDFlashCard" customModule="FlashCard" customModuleProvider="target">
                                 <rect key="frame" x="41.5" y="282.5" width="331" height="331"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RyI-6g-bc5">
@@ -163,7 +163,7 @@
         <!--Add WordsVC-->
         <scene sceneID="xIj-G1-rbj">
             <objects>
-                <viewController id="eKY-sw-NsG" customClass="AddWordsVC" customModule="WDFlashCard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eKY-sw-NsG" customClass="AddWordsVC" customModule="FlashCard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="j1S-ts-B0X"/>
                         <viewControllerLayoutGuide type="bottom" id="MOS-es-USJ"/>
@@ -320,7 +320,7 @@
         <!--Flash Card Table View Controller-->
         <scene sceneID="VtN-2L-RWR">
             <objects>
-                <viewController id="I7x-Jp-SJW" customClass="FlashCardTableViewController" customModule="WDFlashCard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="I7x-Jp-SJW" customClass="FlashCardTableViewController" customModule="FlashCard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cE8-yw-xWR"/>
                         <viewControllerLayoutGuide type="bottom" id="g2e-gh-Wsz"/>
@@ -355,7 +355,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="kEh-so-gic" id="L55-dD-wKw"/>
-                        <segue destination="rYy-Iy-otA" kind="show" identifier="flashCardEdit" id="m61-2M-QRx"/>
+                        <segue destination="rYy-Iy-otA" kind="show" identifier="toFlashCardEdit" id="m61-2M-QRx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="99i-pF-cBS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
